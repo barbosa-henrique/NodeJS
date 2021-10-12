@@ -1,0 +1,16 @@
+Descrição: Teclado
+Preço: 89
+Descrição: camisa
+Preço: 75
+Descrição: camisa
+Preço: 75
+Descrição: leite_moca
+Preço: 5
+Descrição: xinforimpolaa
+Preço: 10.99
+Descrição: camisa
+Preço: 75
+Descrição: camisa
+Preço: 75
+Descrição: leite_moca
+Preço: 100

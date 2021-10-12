@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo Evento</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+</head>
+
+<body>
+    <div class="container margem">
+        <h1 class="text-center text-info">Novo Evento</h1>
+        <div class="borda">
+
+            <p>
+                Bem vindo, <strong><%= usuariov.nome%></strong>
+            </p>
+
+            <form action="/novoEvento" method="POST">
+
+                <!-- Descrição -->
+                <div class="form-group">
+                    <label>Descrição:</label>
+                    <input type="text" class="form-control" name="evento[descricao]">
+                </div>
+
+                <!-- Data -->
+                <div class="form-group">
+                    <label>Data:</label>
+                    <input type="date" class="form-control" name="evento[data]">
+                </div>
+
+                <!-- Preço -->
+                <div class="form-group">
+                    <label>Preço:</label>
+                    <input type="text" class="form-control" name="evento[preco]">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Incluir Evento</button>
+
+            </form>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>

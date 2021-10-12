@@ -1,0 +1,51 @@
+{
+  "produtos": [
+    {
+      "descricao": "Teclado",
+      "preco": 89,
+      "id": 1
+    },
+    {
+      "descricao": "camisa",
+      "preco": "75",
+      "id": 2
+    },
+    {
+      "descricao": "camisa",
+      "preco": "75",
+      "id": 3
+    },
+    {
+      "descricao": "leite_moca",
+      "preco": "5",
+      "id": 4
+    },
+    {
+      "descricao": "xinforimpolaa",
+      "preco": 10.99,
+      "id": 5
+    },
+    {
+      "descricao": "camisa",
+      "preco": 75,
+      "id": 6
+    },
+    {
+      "descricao": "camisa",
+      "preco": 75,
+      "id": 7
+    },
+    {
+      "descricao": "leite_moca",
+      "preco": 100,
+      "id": 8
+    }
+  ],
+  "clientes": [
+    {
+      "nome": "Emilio",
+      "idade": 28,
+      "id": 1
+    }
+  ]
+}

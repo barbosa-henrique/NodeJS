@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo Usuário</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href = "/stylesheet/style.css"/>
+</head>
+<body>
+    <div class= "container margem">
+<h1 class = "text-center text-info">Novo Usuário</h1>
+<div class = "borda">
+
+    <p>
+        Bem vindo, <strong><%= usuariov.nome%></strong>
+    </p>
+
+    <form action="/novoUsuario" method="POST">
+
+    <!-- Usuário -->
+    <div class = "form-group">
+        <label>Nome:</label>
+        <input type = "text" class="form-control" name="usuario[nome]">        
+    </div>
+
+    <!-- Senha -->
+    <div class = "form-group">
+        <label>Senha:</label>
+        <input type = "password" class="form-control" name="usuario[senha]">        
+    </div>
+
+        <!-- Confirma -->
+        <div class = "form-group">
+            <label>Confirma:</label>
+            <input type = "password" class="form-control" name="usuario[Confirma]">        
+        </div>
+    
+    <button type="submit" class="btn btn-primary">Incluir Usuário</button>
+
+    </form>
+ 
+
+        </div>
+    </div>
+    
+</body>
+</html>

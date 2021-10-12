@@ -1,0 +1,14 @@
+{
+  "name": "04_pasta_do_projeto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Henrique",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.27.0"
+  }
+}
